@@ -1,3 +1,2 @@
-FROM php:apline
-WORKDIR /
-COPY . .
+FROM php:7.0-apache  
+COPY . /var/www/php
